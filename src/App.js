@@ -21,6 +21,12 @@ function App() {
       </div>
     </nav>
     {/* Navbar ending */}
+    {/* image section start */}
+    <header className="w-full h-auto">
+<img class="w-full hidden md:block" src="https://images.pexels.com/photos/4057659/pexels-photo-4057659.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+<img class="w-full md:hidden" src="https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+    </header>
+    {/* image section completed */}
    </div>
    </>
   );
