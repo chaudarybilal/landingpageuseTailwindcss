@@ -62,6 +62,42 @@ function App() {
           </div>
         </div>
         {/* our student section ends hare */}
+        {/* product section */}
+        <div class="h-auto w-100  flex flex-wrap flex-col items-center text-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center ">
+            <p class="text-indgo-800 font-bold text-3xl md:text-4xl text-center">
+              Our Products
+            </p>
+            <div class="w-36 h-1 border-b-4 border-yellow-400  mt-2 rounded-2xl md:mt-4 mb-12"></div>
+          </div>
+ </div>
+ <div className="w-[100%] h-auto flex  flex-wrap justify-around">
+  <div className="w-64 flex flex-col items-center mb-12 border-white border-2 rounded-xl p-2">
+    <img class="h-44 w-44" src={image2} alt=""/>
+    <p class="text-3xl font-bold text-white" >PW skills Lab</p>
+    <p class="text-xl font-bold text-gray-700">Supercharge Your Project development with our robust lab</p>
+  </div>
+  <div className="w-64 flex flex-col items-center mb-12  p-2">
+    <img class="h-44 w-44" src={image2} alt=""/>
+    <p class="text-3xl font-bold text-white" >PW skills Lab</p>
+    <p class="text-xl font-bold text-gray-700">Supercharge Your Project development with our robust lab</p>
+  </div>
+  <div className="w-64 flex flex-col items-center mb-12 p-2">
+    <img class="h-44 w-44" src={image2} alt=""/>
+    <p class="text-3xl font-bold text-white" >PW skills Lab</p>
+    <p class="text-xl font-bold text-gray-700">Supercharge Your Project development with our robust lab</p>
+  </div>
+  <div className="w-64 flex flex-col items-center mb-12 p-2">
+    <img class="h-44 w-44" src={image2} alt=""/>
+    <p class="text-3xl font-bold text-white" >PW skills Lab</p>
+    <p class="text-xl font-bold text-gray-700">Supercharge Your Project development with our robust lab</p>
+  </div>
+  <div className="w-64 flex flex-col items-center mb-12 p-2">
+    <img class="h-44 w-44" src={image2} alt=""/>
+    <p class="text-3xl font-bold text-white" >PW skills Lab</p>
+    <p class="text-xl font-bold text-gray-700">Supercharge Your Project development with our robust lab</p>
+  </div>
+ </div>
       </div>
     </>
   );
